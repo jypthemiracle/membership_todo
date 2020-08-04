@@ -14,5 +14,13 @@ export class Category {
         (type) => Task,
         (task) => task.category
     )
-    tasks: Task[];
+    tasks: Task[] = [];
+
+    public addTask(task: Task): void {
+        this.tasks.push(task);
+    }
+
+    public getTasks(): Task[] {
+        return this.tasks;
+    }
 }
