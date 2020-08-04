@@ -1,4 +1,10 @@
 {
+   "type": "mysql",
+   "host": "localhost",
+   "port": 3306,
+   "username": "root",
+   "password": "codesquad",
+   "database": "todo",
    "synchronize": true,
    "logging": false,
    "entities": [
